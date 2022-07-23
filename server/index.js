@@ -79,7 +79,7 @@ app.get('/gas', (req, res) => {
     }
   )
 })
-let port = process.env.PORT || 7007;
+let port = 3306;;
 
 app.listen(port, function() {
   console.log(`listening on port ${port}`);
