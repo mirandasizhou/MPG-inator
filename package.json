@@ -214,7 +214,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "react-dev": "webpack --mode development --watch",
     "build": "webpack --mode production",
-    "server-dev": "npx nodemon server/index.js"
+    "server-dev": "npx nodemon server/index.js",
+    "start": "node server/index.js"
   },
   "repository": {
     "type": "git",
