@@ -1,5 +1,5 @@
 const axios = require('axios');
-const token = require('../config.js');
+const token = require('/../config.js');
 
 let gasPriceSearch = (state, cb) => {
   let options = {
