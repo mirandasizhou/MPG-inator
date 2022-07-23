@@ -10,7 +10,7 @@ class Prices extends React.Component {
       return (
         <div>
          <p>The average gas price in {this.props.state.selectedState} is {this.props.state.gasPrice} per gallon</p>
-         <p>The average electricity price in {this.props.state.selectedState} is {this.props.state.elecPrice} per kW/h</p>
+         <p>The average electricity price in {this.props.state.selectedState} is {this.props.state.elecPrice} cents per kW/h</p>
         </div>
       )
     }

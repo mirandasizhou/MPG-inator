@@ -17,7 +17,7 @@ class MPG extends React.Component {
               return (
                 <>
                   {/* <span key={id + car.range}>The MPG equivalency for the {this.props.state.make} {this.props.state.model} {car.variant} is {mpg}</span> */}
-                  <p key={id + car.range}>The MPG equivalency for the {this.props.state.make} {this.props.state.model} {car.variant} is {mpg}</p>
+                  <p key={id + car.range}>The MPG equivalency for the {this.props.state.make} {this.props.state.model} {car.variant} in this state is {mpg}</p>
                 </>
               )
             }

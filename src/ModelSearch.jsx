@@ -13,8 +13,12 @@ class ModelSearch extends React.Component {
           <label>
             Select Model
             <select onChange={this.props.handleModel} defaultValue="select">
+              <option value="select model"></option>
               {cars.data.map((car, id) => {
-                if (car.brand === this.props.state.make) {
+                var models = {};
+                var model = car.model;
+                if (car.brand === this.props.state.make && !models.model) {
+                  models.model = 1;
                   return <option value={car.model} key={id}>{car.model}</option>
                 }
               })}
