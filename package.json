@@ -210,7 +210,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "react-dev": "webpack --mode development --watch",
-    "server-dev": "npx nodemon server/index.js"
+    "server-dev": "npx nodemon server/index.js",
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
