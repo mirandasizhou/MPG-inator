@@ -12,7 +12,7 @@ class ModelSearch extends React.Component {
         <div>
           <label>
             Select Model
-            <select onChange={this.props.handleModel} defaultValue="select">
+            <select onChange={this.props.handleModel} value={this.props.state.model}>
               {Array.from(new Set(cars.data.map(car => {
                 if (car.brand === this.props.state.make) {
                   return car.model;

@@ -14,6 +14,7 @@ class Dropdown extends React.Component {
         <label>
           Select state
           <select onChange={this.props.handleChange}>
+            <option value=""></option>
             {states.map((state, id) => {
               return <option value={state.value} key={id}>{state.label}</option>
             })}

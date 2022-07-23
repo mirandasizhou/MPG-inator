@@ -14,6 +14,7 @@ class CarSearch extends React.Component {
           <label>
             Select Make
             <select onChange={this.props.handleMake}>
+              <option value=""></option>
               {cars.brands.map((car, id) => {
                 return <option value={car.name} key={id}>{car.name}</option>
               })}

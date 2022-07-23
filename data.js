@@ -184,7 +184,7 @@ module.exports.electricVehicles = {
       "vehicle_type": "car",
       "type": "bev",
       "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
-      "model": "e-tron 50",
+      "model": "E-tron 50",
       "release_year": 2019,
       "variant": "22kW-AC",
       "usable_battery_size": 71.0,
@@ -330,6 +330,7 @@ module.exports.electricVehicles = {
       "release_year": null,
       "variant": "94 Ah",
       "usable_battery_size": 27.2,
+      "range": 194,
       "ac_charger": {
         "usable_phases": 3,
         "ports": [
@@ -3446,10 +3447,6 @@ module.exports.electricVehicles = {
     {
       "id": "61fc79a2-04ca-418e-9333-caf5f67ba02f",
       "name": "Jaguar"
-    },
-    {
-      "id": "3f1649fc-a64c-fd11-53a6-56031d7757aa",
-      "name": "Jeep"
     },
     {
       "id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
